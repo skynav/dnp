@@ -8,8 +8,7 @@ authors = ["Glenn Adams <glenn@skynav.com>"]
 categories = ["network-programming"]
 description = """
 dnp-dnpm is a library that implements a Distributed Network Protocol (3)
-Machine that adheres to IEEE 1815-2012 when used with IP bindings
-
+Machine that adheres to IEEE 1815-2012 when used with IP bindings;
 not yet ready for download - placeholder for work in progress
 """
 documentation = "https://github.com/skynav/mms/crates/dnpm"
