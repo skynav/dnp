@@ -1,0 +1,30 @@
+[package]
+# essential fields
+name = "dnp"
+version = "0.0.1"
+edition = "2021"
+# additional fields (in alphabetic order)
+authors = ["Glenn Adams <glenn@skynav.com>"]
+categories = ["network-programming"]
+description = """
+dnp is a library that implements the Distributed Network Protocol (3)
+protocol stack as defined by IEEE 1815-2012 with IP bindings
+
+not yet ready for download - placeholder for work in progress
+"""
+documentation = "https://github.com/skynav/dnp"
+homepage = "https://github.com/skynav/dnp"
+keywords = ["dnp"]
+license = "Unlicense OR MIT"
+readme = "README.md"
+repository = "https://github.com/skynav/dnp"
+
+[lib]
+path = "crates/core/lib.rs"
+
+[workspace]
+members = [
+  "crates/dnpm"
+]
+
+[dependencies]
